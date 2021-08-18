@@ -1,0 +1,332 @@
+/*STYLES GENERAUX*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background: #9180dd;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*HEADER & FOOTER*/
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: linear-gradient(-45deg, #6f8de0, #9235df, #382d9c);
+    background-size: 400% 400%;
+    box-shadow: 0px 0px 15px rgb(85, 85, 85);
+    animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 10% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+header{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    height: 150;
+}
+header h1{
+    color: white;
+    font-size: 50px;
+    width: 90%;
+    margin: 10 auto;
+}
+header h4{
+    color: white;
+    width: 90%;
+    padding-left: 130px;
+}
+footer{
+    border-top: 2px solid #fff;
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+}
+/*SECTIONS*/
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgb(146, 146, 146);
+    background-color: rgb(255, 255, 255);
+}
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+section > div{
+    width: 90%;
+}
+.acc{
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 20px;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    
+}
+.acc-info{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 0 70%;
+}
+.acc h3{
+    font-size:  20px;
+    margin-bottom: 5px;
+}
+.acc h4{
+    font-size:  1em;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.lang{
+    display: flex;
+    flex-flow: row wrap;
+    width: 30%;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+.lang h2{
+    margin-left: 50px;
+}
+.lang h4{
+    margin-left: 50px;
+    font-size:  20px;
+    padding:10px 0px 10px 0px;
+}
+.inte{
+    display: flex;
+    flex-flow: row wrap;
+    width: 48%;
+    padding-bottom: 20px;
+    margin-left: 42%;
+    margin-top: -225px;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 190px;
+    height: 190px;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: transform .5s ease;
+}
+.prez{
+    border-bottom: 2px dashed #ccc;
+}
+
+.contacts{
+    margin-left: 900px;
+    margin-top: -70px;
+    color: white;
+}
+
+/**/
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+
+/*SECTION EXP ET FORMATION*/
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.exp-logo{
+    flex: 0 0 10%;
+    max-width: 100px;
+}
+.exp img{
+    width: 100%;
+}
+.exp h3{
+    font-size:  1.2em;
+}
+.exp h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+
+/*SECTION COMPETENCES*/
+.h3gauche{
+    width: 90%;
+    margin-bottom: 10px;
+}
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: rgb(131, 153, 226);
+    border-bottom: 1px ridge rgb(113, 119, 124);
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c85{
+    width: 85%;
+    background-color: rgb(136, 141, 187);
+}
+.c90{
+    width: 90%;
+    background-color: rgb(71, 96, 207);
+}
+.c95{
+    width: 95%;
+    background-color: rgb(50, 67, 167);
+}
+.c100{
+    width: 100%;
+    background-color: rgb(80, 77, 212);
+    border-radius: 5px;
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.checked {
+    color: rgb(52, 39, 167);
+}
+span{
+    color: rgb(169, 183, 223);
+    padding-left: 30px;
+}
+
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+/*SECTION INTERETS*/
+.interet{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.interet img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555;
+}
+
+/*VERSION BUREAU DU CV*/
+@media screen and (min-width: 980px){
+    section{
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb;
+    }
+    a:hover{
+        color: #EA0;
+    }
+    header h1{
+        width: 80%;
+    }
+    .prez{
+        border-bottom: none;
+        padding-right: 50px;
+        margin-top: -30px;
+    }
+    .prez a{
+        border: 2px solid transparent;
+    }
+    .prez a:hover{
+        color: #f28835;
+        background-color: #fff;
+        border: 2px solid #f28835;
+        box-shadow: 0px 0px 20px #666;
+    }
+    .exp-logo{
+        flex: 0 0 10%;
+    }
+    .exp-info{
+        flex: 0 0 85%;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    .acc-info{
+        margin-top: 10px;
+        flex: 0 0 45%;
+        padding-left: 20px;
+        margin-right: auto;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .interet{
+        flex: 0 2 20%;
+    }
+}

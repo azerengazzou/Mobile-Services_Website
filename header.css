@@ -1,0 +1,48 @@
+
+/* header et navbar style */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+.header{
+    border-bottom: 2px solid #E2E8F0;
+    background-color: white;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #482ff7;
+}
+.nav-logo:hover{
+    color: rgb(168, 39, 82);
+}

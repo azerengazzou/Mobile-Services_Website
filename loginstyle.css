@@ -1,0 +1,96 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,600');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+.content{
+    font-size: 20px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body{
+  background: linear-gradient(-45deg, #ccccec, #a2a7f1, #8523d5, #23d5ab) ;
+  background-size: 400% 400%;
+  text-align: center;
+  animation: anim 10s ease infinite;
+}
+@keyframes anim {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+h1{
+  color: indigo;
+}
+
+input[type=submit]{
+  background:#2ecc71;
+  width:125px;
+  padding-top:5px;
+  padding-bottom:5px;
+  color:white;
+  border-radius:4px;
+  border: #27ae60 1px solid;
+  margin-top:20px;
+  margin-left: 5px;
+  margin-bottom:20px;
+}
+  form .need_acc{
+    color:#ffffff;
+    font-size: 15px;
+  }
+  form .need_acc:hover{
+    font-size: 18px;
+    color: #831212;
+  }
+  .box{
+    background:white;
+    width:400px;
+    height: 200px;
+    border-radius:50px;
+    margin: 0 auto 0 auto;
+    margin-top: 8%;
+    padding:20px 0px 70px 0px;
+    border: #2980b9 4px solid; 
+    box-shadow: 10px  gray  ;
+  }
+  .email{
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    border-bottom: #ccc 2px solid;
+    padding: 8px;
+    width:250px;
+    color:#AAAAAA;
+    margin-top:10px;
+    border-radius:4px;
+  }
+  .password{
+    border-radius:4px;
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    padding: 8px;
+    width:250px;
+  }
+  
+  .btn:hover{
+    background:#2CC06B; 
+  }

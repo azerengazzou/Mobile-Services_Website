@@ -1,0 +1,131 @@
+/* basics page style */
+/*importation de font */ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image:url( "https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* basic style pour le reste */ 
+
+.f_sec{
+    margin-left: -50%;
+    margin-top: 4%;
+    
+}
+.f_sec nav .form-area h3{
+    font-size: 20px;
+    color: rgb(30, 118, 145);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 0px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.f_sec nav .form-area form{
+    align-content: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.f_sec nav .form-area form input{
+    padding: 10px;
+    width: 95%;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(168, 39, 82);
+}
+.f_sec nav .form-area form #city #selc,input{
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(168, 39, 82);
+}
+.f_sec nav .form-area form #city input{
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(168, 39, 82);
+}
+.f_sec nav .form-area form #city{
+    display: flex;
+}
+
+.f_sec nav .form-area form input:hover{
+    background: linear-gradient(to left, rgb(247, 247, 247), rgba(177, 177, 177, 0.486));
+}
+.f_sec nav .form-area h4{
+    color: rgb(30, 118, 145);
+    font-size: 15px;
+    text-align: center;
+}
+
+.f_sec nav .form-area{
+    border-color: rgb(184, 58, 100);
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    padding-bottom: 10px;
+    margin-left: 36%;
+    margin-top: 20px;
+    margin-right: 35%;
+}
+
+.f_sec nav .account a span{
+    margin-top: -20px;
+    color: blue;
+    font-size: 20px;
+}
+
+.desc_sec nav{
+    margin-left: 55%;
+    margin-top: -29%;
+    margin-right: 10%;
+}
+.desc_sec{
+    box-shadow:  100px dimgrey;
+}
+.desc_sec nav h1{
+    font-size: 60px;
+    color: rgb(78, 76, 209);
+    text-shadow: 4px 4px 9px #5cb8f5;
+}
+.desc_sec nav #wel_h2 {
+    color: cornflowerblue;
+    text-shadow: 2px 2px 1px #ffffff;
+}
+.desc_sec nav h1:hover{
+    color: snow;
+}
+#repa{
+    margin-bottom: -70px;
+    color: rgb(209, 76, 120);
+}
+#repa:hover{
+    color: rgb(78, 76, 209);
+    text-shadow: 4px 4px 9px #5cb8f5;
+}

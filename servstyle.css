@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,600');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.head_page h1{
+    font-family: pattaya;
+    padding-top: 5%;
+    font-size: 70px;
+    color:#E63946;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px #F1FAEE;
+    text-align: center;
+}
+.head_page{
+    background:url("https://carleton.ca/mobileservices/wp-content/uploads/banner-mobile.jpg"),no-repeat;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    object-fit: cover;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.under_head_page input {
+    float: right;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 70px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    color:rgb(56, 56, 56);
+    background:#7affb2 ;
+    border-radius:4px;
+    border: #27ae60 1px solid;
+    width: 70px;
+    height: 30px;
+}
+.under_head_page input:hover{
+    background:#6de49e ;
+}
+.serv1 , .serv2, .serv3{
+    display: flex;
+    flex-flow: column wrap;
+    width: 98%;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 15px rgb(219, 219, 219);
+    background-color: #A8DADC;
+    border-radius: 10px;
+}
+.serv1:hover{
+    background: linear-gradient(to left, rgb(247, 247, 247), rgba(155, 193, 236, 0.486));
+}
+.serv2:hover{
+    background: linear-gradient(to left, rgb(247, 247, 247), rgba(155, 193, 236, 0.486));
+}
+.serv3:hover{
+    background: linear-gradient(to left, rgb(247, 247, 247), rgba(155, 193, 236, 0.486));
+}
+.serv1 h2 , .serv2 h2 , .serv3 h2{
+    margin-top: 10px;
+    color: #E63946;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.serv1 p,.serv2 p,.serv3 p{
+    margin:5px 10px 10px 10px;
+    font-size: 15px;
+    color: #000000;
+}
+.cont_em{
+    display: flex;
+    flex-flow: column wrap;
+    width: 35%;
+    padding-right: -10%;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 15px rgb(219, 219, 219);
+    background-color: #A8DADC;
+    border-radius: 10px;
+}
+
+.cont_em h2{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.cont_em form{
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 35%;
+}
+
+.cont_em form input,textarea{
+    width: 150%;
+}
+.cont_em label,input,textarea{
+    width: 40%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+.cont_em input[type=button]{
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    width: 60px;
+    border-radius: 10px;
+    border: 0px;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont_vis{
+    display: flex;
+    flex-flow: column wrap;
+    width: 61%;
+    padding-right: -10%;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 15px rgb(219, 219, 219);
+    background-color: #A8DADC;
+    border-radius: 10px;
+}
+
+.cont_vis h2{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.cont_vis p {
+    font-family: fantasy;
+    font-size: 30px;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    margin-top:20px;
+}
+  
